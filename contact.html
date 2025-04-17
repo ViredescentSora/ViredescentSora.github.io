@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<style>
+    body{background-color: #D5F5C9;}
+    header {
+        background-color: #74BC76;
+        color: #FFFDDD;
+        text-align: center;
+        padding: 50px;
+        font-family: "Inter";
+        line-height: 1.5;
+        font-size: 30px;
+    } 
+    
+    nav{
+        background-color: #8CD98E;
+        padding: 15px; 
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        
+    }
+    
+    nav a{
+        color:#000000; 
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #C8FFCA;
+        padding: 25px
+        
+    }
+    
+    
+    nav a:hover {
+        
+        color: #267927;
+        text-decoration: underline; }
+        
+        .sorbox{
+            margin-top: 150px;
+            margin-bottom: 150px;
+            margin-left:  300px;
+            margin-right: 300px;
+            
+            
+        }
+        
+        .form-element {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .form-element label{
+            width: 200px;
+        }
+        
+        .form-element input,
+        .form-element select,
+        .form-element textarea {
+            font-family: "Inter";
+            display:block;
+            flex: 1;
+            padding: 5px;
+            
+            height: 50px;
+            font-size: 35px;
+        }
+        
+        footer{
+            background-color: #74BC76;
+            color: #FFFDDD;
+            text-align: center;
+            padding: 50px;
+            font-family: "Inter";
+            line-height: 1.5;
+            font-size: 15px;
+        }
+        
+        
+    </style>
+    <body>
+        <header>
+            <h1> Contacts </h1>
+        </header>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contacts</a>
+            
+        </nav>
+        
+        
+        <div class="sorbox">
+            <div class="container">
+                
+                <main class="main-content">
+                    <form action="mailto:info@example.com" method="post" enctype="text/plain" class="content-narrow website-form"></form>
+                    
+                    <div class= "form-element">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required placeholder="John Doe">
+                        
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email" required placeholder="johndoe@gmail.com">
+                    </div>
+                    <div class="form-element">
+                        <label for="subject">Subject:</label>
+                        <select name="subject" id="subject">
+                            <option value="Artworks">Queries</option>
+                            <option value="Game Wars">Requests </option>
+                            <option value="Digital artwork">Other </option>
+                        </select>
+                    </div>
+                    <div class="form-element">
+                        <textarea name="message" id="message" row="10"></textarea>
+                    </div>
+                    
+                    
+                    
+                    <div class="form-element">
+                        <button type="submit">Send</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <footer>
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat soluta id voluptate natus nulla deserunt error aspernatur repellat nisi inventore vel delectus minima necessitatibus modi, hic corporis voluptas voluptatem.
+                </h1>
+            </footer>
+        </body>
+        </html>
