@@ -14,6 +14,37 @@ body {
 header {background-color: #000043;
     color: black;
     text-align: center;
-    
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 40px;
 
+}
+
+header img {margin-top: 20px;}
+
+nav {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav a {
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 35px;
+    color: black;
+    background-color:#D4EEFD ;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    color: #AA8BC6;
+    text-decoration: underline;
+    
 }
